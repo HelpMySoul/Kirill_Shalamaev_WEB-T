@@ -3,7 +3,14 @@ main {
 }
 .Header {
     background-color: aqua;
+    background-image: url("../images/backimage.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-left: 30px;
 }
 .Footer {
-    background-color: rgb(0, 161, 161);
+    background-color: var(--bgcolor);
+}
+body{
+    --bgcolor: rgb(0, 161, 161);
 }
